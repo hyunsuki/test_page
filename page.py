@@ -10,8 +10,8 @@ import pandas as pd
 st.set_page_config(page_title="다이렉트 굿앤굿어린이종합보험Q(태아)", layout="wide")
 
 # 초기 상태 저장
-#if "selected" not in st.session_state:
-#    st.session_state.selected = "태아"
+if "selected" not in st.session_state:
+    st.session_state.selected = "태아"
 
 # 옵션 정의
 options = ["태아", "어린이 (0~15세)"]
